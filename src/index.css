@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Tailwind gradient for Horizon Dental logo colors */
+.bg-gradient-logo {
+  @apply bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600;
+}
