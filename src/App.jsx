@@ -1,11 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import AboutUs from './pages/AboutUs';
-import Services from './pages/Services';
-import OurDentist from './pages/OurDentist';
-import ContactUs from './pages/ContactUs';
+import Home from './pages/Home.jsx';
+import AboutUs from './pages/AboutUs.jsx';
+import Services from './pages/Services.jsx';
+import OurDentist from './pages/OurDentist.jsx';
+import ContactUs from './pages/ContactUs.jsx';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         <Route path="/our-dentist" element={<OurDentist />} />
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
-      <Footer />
     </Router>
   );
 }
