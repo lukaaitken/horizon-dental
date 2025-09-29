@@ -4,12 +4,11 @@ import HorizonIcon from '../assets/HorizonIcon.png';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-
     return (
         <nav className="bg-white shadow-md sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
                 {/* Logo */}
-                <div className="flex items-center">
+                <div className="flex items-center flex-shrink-0">
                     <img
                         src={HorizonIcon}
                         alt="Horizon Dental Logo"
@@ -19,18 +18,16 @@ export default function Navbar() {
                         Horizon Dental
                     </div>
                 </div>
-
-                {/* Desktop menu */}
-                <div className="hidden md:flex space-x-6">
-                    <Link className="text-gray-700 hover:text-orange-500" to="/">Home</Link>
-                    <Link className="text-gray-700 hover:text-orange-500" to="/about-us">About Us</Link>
-                    <Link className="text-gray-700 hover:text-orange-500" to="/services">Services</Link>
-                    <Link className="text-gray-700 hover:text-orange-500" to="/our-dentist">Our Dentist</Link>
-                    <Link className="text-gray-700 hover:text-orange-500" to="/contact-us">Contact Us</Link>
+                {/* Desktop menu - CENTERED */}
+                <div className="hidden lg:flex space-x-6 absolute left-1/2 transform -translate-x-1/2">
+                    <Link className="text-gray-700 hover:text-orange-500 whitespace-nowrap" to="/">Home</Link>
+                    <Link className="text-gray-700 hover:text-orange-500 whitespace-nowrap" to="/about-us">About Us</Link>
+                    <Link className="text-gray-700 hover:text-orange-500 whitespace-nowrap" to="/services">Services</Link>
+                    <Link className="text-gray-700 hover:text-orange-500 whitespace-nowrap" to="/our-dentist">Our Dentist</Link>
+                    <Link className="text-gray-700 hover:text-orange-500 whitespace-nowrap" to="/contact-us">Contact Us</Link>
                 </div>
-
                 {/* Mobile hamburger button */}
-                <div className="md:hidden">
+                <div className="lg:hidden">
                     <button
                         onClick={() => setIsOpen(!isOpen)}
                         type="button"
@@ -48,10 +45,9 @@ export default function Navbar() {
                     </button>
                 </div>
             </div>
-
             {/* Mobile menu */}
             {isOpen && (
-                <div className="md:hidden px-4 pb-4 space-y-2 bg-white shadow-md">
+                <div className="lg:hidden px-4 pb-4 space-y-2 bg-white shadow-md">
                     <Link className="block text-gray-700 hover:text-orange-500" to="/" onClick={() => setIsOpen(false)}>Home</Link>
                     <Link className="block text-gray-700 hover:text-orange-500" to="/about-us" onClick={() => setIsOpen(false)}>About Us</Link>
                     <Link className="block text-gray-700 hover:text-orange-500" to="/services" onClick={() => setIsOpen(false)}>Services</Link>
