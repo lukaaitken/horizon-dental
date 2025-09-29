@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import HorizonIcon from '../assets/HorizonIcon.png';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,7 @@ export default function Navbar() {
                 {/* Logo */}
                 <div className="flex items-center">
                     <img
-                        src="src\assets\HorizonIcon.png"
+                        src={HorizonIcon}
                         alt="Horizon Dental Logo"
                         className="h-10"
                     />
