@@ -24,7 +24,10 @@ export default function HeroBanner() {
         }}
       />
 
-      <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/70 via-orange-500/70 to-red-500/70"></div>
+<div className="absolute inset-0 bg-black/40"></div>
+
+
+
 
       <div className="relative z-10">
         <h1 className="text-5xl font-bold">Welcome to Horizon Dental</h1>

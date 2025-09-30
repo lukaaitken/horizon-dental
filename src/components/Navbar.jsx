@@ -27,6 +27,7 @@ export default function Navbar() {
                     <div className="text-2xl font-bold text-orange-500 ml-2 mt-1">
                         Horizon Dental
                     </div>
+
                 </Link>
 
                 {/* Desktop menu - CENTERED */}
