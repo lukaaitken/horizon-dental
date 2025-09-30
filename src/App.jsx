@@ -6,11 +6,13 @@ import AboutUs from './pages/AboutUs.jsx';
 import Services from './pages/Services.jsx';
 import OurDentist from './pages/OurDentist.jsx';
 import ContactUs from './pages/ContactUs.jsx';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router basename="/horizon-dental">
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
