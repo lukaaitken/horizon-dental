@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import HorizonIcon from '../assets/HorizonIcon.png';
 
 export default function Navbar() {
@@ -20,13 +20,14 @@ export default function Navbar() {
     return (
         <nav className="bg-white shadow-md sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
-                {/* Logo */}
-                <div className="flex items-center flex-shrink-0">
+                
+                {/* Logo (clickable to home) */}
+                <Link to="/" className="flex items-center flex-shrink-0">
                     <img src={HorizonIcon} alt="Horizon Dental Logo" className="h-10" />
                     <div className="text-2xl font-bold text-orange-500 ml-2 mt-1">
                         Horizon Dental
                     </div>
-                </div>
+                </Link>
 
                 {/* Desktop menu - CENTERED */}
                 <div className="hidden lg:flex space-x-6 absolute left-1/2 transform -translate-x-1/2">
