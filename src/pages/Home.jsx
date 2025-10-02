@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import HeroBanner from '../components/HeroBanner';
-import Work1 from '../assets/Work/About-Us-sm_opt.jpg';
+import Work1 from '../assets/Building/About-Us-sm_opt.jpg';
 
 export default function Home() {
   const navigate = useNavigate();

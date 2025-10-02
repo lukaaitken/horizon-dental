@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import HorizonIcon from '../assets/HorizonIcon.png';
+import HorizonIcon from '../assets/Logos/HorizonIcon.png';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import BuildingImg from '../assets/build1.png';
+import BuildingImg from '../assets/Building/build1.png';
 
 export default function HeroBanner() {
   const [offsetY, setOffsetY] = useState(0);
@@ -14,7 +14,6 @@ export default function HeroBanner() {
   return (
     <div className="relative h-[500px] flex items-center justify-center text-center text-white overflow-hidden">
       
-      {/* Background Image with parallax */}
       <img
         src={BuildingImg}
         alt="Horizon Dental Building"

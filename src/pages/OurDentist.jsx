@@ -3,6 +3,11 @@ import Dentist2 from '../assets/Doctors/SidneySmile.png';
 import Dentist3 from '../assets/Doctors/AlexOMolar.png';
 import Dentist4 from '../assets/Doctors/PKPlaque.png';
 
+import Dentist5 from '../assets/Doctors/AlexOvi.png';
+import Dentist6 from '../assets/Doctors/MariePoulin.png';
+import Dentist7 from '../assets/Doctors/SarahFloss.png';
+import Dentist8 from '../assets/Doctors/JaromirJawgr.png';
+
 export default function OurDentist() {
 const dentists = [
   {
@@ -32,6 +37,34 @@ const dentists = [
     bio: "Dr. Plaque graduated from the University of Alberta with a DDS degree and specializes in orthodontics and preventive dentistry. He is known for his careful attention to detail and his ability to make treatments straightforward and stress-free. In his free time, he enjoys recreational hockey and volunteering at community clinics.",
     specialties: ["DDS"],
     img: Dentist4
+  },
+  {
+    name: "Dr. Alex Ovidenture",
+    role: "Restorative & Cosmetic Dentistry",
+    bio: "Dr. Ovidenture earned his DMD at Moscow State University and specializes in restorative and cosmetic dentistry. With a steady hand and a perfectionist’s eye, he helps patients regain confidence through beautiful, functional smiles. Known for his determination and leadership, he also supports local sports programs and enjoys mentoring young athletes in his free time.",
+    specialties: ["DMD"],
+    img: Dentist5
+  },
+  {
+    name: "Dr. Marie-Polish Poulin",
+    role: "Preventive & Family Dentistry",
+    bio: "Dr. Poulin graduated from Université de Montréal with a DMD degree and focuses on preventive and family dentistry. She is admired for her approachable, polished style of care, making patients of all ages feel comfortable during visits. Beyond dentistry, she is dedicated to youth development, regularly speaking at schools and volunteering with community wellness programs.",
+    specialties: ["DMD"],
+    img: Dentist6
+  },
+  {
+    name: "Dr. Sarah Floss",
+    role: "Pediatric & Preventive Dentistry",
+    bio: "Dr. Floss completed her DMD at Western University and specializes in pediatric and preventive care. Known for her gentle approach and ability to connect with children, she makes dental visits fun and stress-free. She is active in local outreach, often leading educational workshops on oral hygiene and promoting healthy habits among young families.",
+    specialties: ["DMD"],
+    img: Dentist7
+  },
+  {
+    name: "Dr. Jaromir Jawgr",
+    role: "Oral Surgery & Complex Care",
+    bio: "Dr. Jawgr earned his DDS at Charles University in Prague, Czechia, with advanced training in oral surgery and complex dental care. With a serious, confident demeanor, he takes on challenging cases while prioritizing patient comfort and long-term results. Outside the clinic, he enjoys staying active in the community, supporting sports initiatives, and mentoring aspiring dental professionals.",
+    specialties: ["DDS"],
+    img: Dentist8
   },
 ];
 
