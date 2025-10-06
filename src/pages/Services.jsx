@@ -1,4 +1,4 @@
-import { useState } from "react";  // ✅ add this import
+import { useState } from "react";
 
 function Service({ title, children }) {
   const [open, setOpen] = useState(false);

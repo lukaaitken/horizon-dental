@@ -1,20 +1,50 @@
-## https://lukaaitken.github.io/horizon-dental
+![Horizon Dental Logo](src/assets/Logos/HorizonLogo.png)
 
+# Horizon Dental (Parody Website)
 
+A modern **React-based dental clinic website** created as a parody of Skyline Dental.  
+This project is built with **React, TailwindCSS, and React Router** to showcase a clean, responsive, and professional clinic-style design.
 
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Website Link
+- **https://lukaaitken.github.io/horizon-dental**
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Navigation Bar** with mobile-friendly hamburger menu  
+- **Hero Banner** with parallax and slideshow support  
+- **Home Page** with mission, services preview, and dentist highlights  
+- **About Us Page** with clinic introduction and photo  
+- **Services Page** with interactive accordion and optional detailed sub-pages  
+- **Our Dentist Page** with profile section  
+- **Contact Us Page** with clinic details and contact form structure  
+- **Footer** with quick navigation and branding  
+- **Scroll to Top** behavior when navigating between pages  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React 18**  
+- **React Router DOM**
+- **TailwindCSS**  
+- **JavaScript (ES6+)**  
+- **Vite**
+- **GitHub Pages**
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### 1. Clone the repository
+git clone https://github.com/your-username/horizon-dental.git
+cd horizon-dental
+
+### 2. Install dependencies
+npm install
+
+### 3. Run development server
+npm run dev
+
+### 4. Build for production
+npm run build
