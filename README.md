@@ -1,4 +1,6 @@
+<p align="center">
 <img src="src/assets/Logos/HorizonLogo.png" alt="Horizon Dental Logo" width="500" />
+</p>
 
 # Horizon Dental (Parody Website)
 
